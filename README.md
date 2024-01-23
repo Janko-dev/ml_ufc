@@ -1,6 +1,12 @@
 # UFC data analysis and predictions 
 The UFC Dataset scraped and preprocessed by [UFC-Predictions scraper](https://github.com/WarrierRajeev/UFC-Predictions) by WarrierRajeev. The data was scraped from the [UFC stats](http://ufcstats.com/statistics/events/completed) website. The data is last scraped via the aforementioned tool on 13-12-2023, which means that the data from every UFC event after this point in time is usable for testing ML models. The last UFC event in this dataset is [UFC Fight Night: Song vs. Gutierrez](http://ufcstats.com/event-details/5ef0088c1b19beeb) on 9-12-2023. 
 
+
+similar projects:
+- https://github.com/jasonchanhku/UFC-MMA-Predictor/blob/master/UFC%20MMA%20Predictor%20Workflow.ipynb
+- https://github.com/pdwyer13/UFC_EDA/blob/b9d3434b29219549aeae7b16ebf522984c34b76d/Dwyer_UFC_EDA.ipynb
+- https://github.com/shortlikeafox/tiger-millionaire/tree/master
+
 ## Column definitions:
 - `R_` and `B_` prefix signifies red and blue corner fighter stats respectively
 - `_opp_` containing columns is the average of damage done by the opponent on the fighter
